@@ -182,16 +182,13 @@ If you use this code, please cite:
   school = {<Doshisha University>},
   type   = {Bachelor's thesis}
 }
-```
 
-(Update the entry — including type and school — to match your situation.)
 
 ---
 
 ## License
 
-Released under the MIT License — see [LICENSE](LICENSE). **Confirm with your advisor / institution** that you are permitted to release this code and under which license before publishing.
-
+Released under the MIT License — see [LICENSE](LICENSE). 
 ---
 
 ## Acknowledgments
