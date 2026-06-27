@@ -3,8 +3,8 @@ message: "If you use this software, please cite it as below."
 title: "Real-Time Surgical Video Analysis: High-Accuracy Segmentation and Instrument Tracking"
 authors:
   - family-names: "Miyoshi"
-    given-names: "Takenari"
-    # affiliation: "<Your University>"
+    given-names: "masanari"
+    # affiliation: "<Doshisha University>"
 date-released: 2026-01-01
 url: "https://github.com/<your-username>/<repo-name>"
 keywords:
