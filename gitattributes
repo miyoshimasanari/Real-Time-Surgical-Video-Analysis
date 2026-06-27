@@ -1,0 +1,15 @@
+# Use Git LFS for large binary files IF you choose to version them.
+# (By default the .gitignore excludes weights/datasets entirely — prefer
+#  sharing weights via GitHub Releases or external storage. Only enable LFS
+#  if you specifically need these files in the repo. Run `git lfs install` first.)
+
+*.pth   filter=lfs diff=lfs merge=lfs -text
+*.pt    filter=lfs diff=lfs merge=lfs -text
+*.ckpt  filter=lfs diff=lfs merge=lfs -text
+*.onnx  filter=lfs diff=lfs merge=lfs -text
+
+# Normalize line endings for text files
+*.py    text eol=lf
+*.md    text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf

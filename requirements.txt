@@ -1,0 +1,33 @@
+# Install PyTorch matching your CUDA version FIRST (see https://pytorch.org):
+#   pip install torch torchvision
+# torch / torchvision are intentionally left unpinned here because the correct
+# build depends on your CUDA version.
+
+# --- Core deep learning ---
+ultralytics>=8.3.0        # YOLO11 detector
+mamba-ssm>=2.0.0          # Mamba State Space Model (needs CUDA + causal-conv1d)
+causal-conv1d>=1.4.0      # required by mamba-ssm
+einops>=0.7.0
+
+# --- Image / video processing ---
+opencv-python>=4.9.0
+Pillow>=10.0.0
+albumentations>=1.4.0     # data augmentation
+
+# --- Scientific computing ---
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# --- Visualization ---
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# --- Utilities ---
+pyyaml>=6.0
+tqdm>=4.66.0
+tensorboard>=2.15.0       # optional logging
+
+# --- Tracking evaluation ---
+# HOTA / MOT metrics: install TrackEval separately from
+#   https://github.com/JonathonLuiten/TrackEval

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Real-Time Surgical Video Analysis: High-Accuracy Segmentation and Instrument Tracking"
+authors:
+  - family-names: "Miyoshi"
+    given-names: "Takenari"
+    # affiliation: "<Your University>"
+date-released: 2026-01-01
+url: "https://github.com/<your-username>/<repo-name>"
+keywords:
+  - surgical video analysis
+  - semantic segmentation
+  - multi-object tracking
+  - Mamba state space model
+  - laparoscopic surgery
+  - medical computer vision
+license: MIT

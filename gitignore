@@ -1,0 +1,69 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Machine learning artifacts ----
+# Model weights / checkpoints (too large for git; share via releases or external storage)
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pb
+*.h5
+*.safetensors
+checkpoints/
+weights/
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+outputs/
+*.log
+
+# ---- Datasets and media (download separately; never commit patient/clinical data) ----
+data/
+datasets/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.tif
+*.tiff
+# (keep small sample images for the README under docs/ if needed)
+
+# ---- Secrets / local config ----
+.env
+.env.*
+*.key
+*.pem
+config_local.*
+secrets.*
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
