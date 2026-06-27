@@ -176,11 +176,11 @@ python tracking/inference.py --video path/to/video.mp4 --weights checkpoints/mam
 If you use this code, please cite:
 
 ```bibtex
-@thesis{miyoshi2024surgical,
+@thesis{miyoshi2025surgical,
   title  = {Real-Time Surgical Video Analysis: High-Accuracy Segmentation and Instrument Tracking},
-  author = {Miyoshi, Takenari},
-  year   = {2024},
-  school = {<Your University>},
+  author = {Miyoshi, masanari},
+  year   = {2025},
+  school = {<Doshisha University>},
   type   = {Bachelor's thesis}
 }
 ```
