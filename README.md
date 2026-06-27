@@ -7,7 +7,6 @@ This repository accompanies the thesis *"Real-Time Surgical Video Analysis: High
 1. **Efficient U-Net variant** — depthwise separable convolutions (DSC) combined with an instrument-specific lightweight attention mechanism and a composite loss function, achieving high accuracy at real-time speed.
 2. **MambaMOT** — to our knowledge the first application of the Mamba State Space Model to surgical instrument tracking, maintaining instrument identity through occlusion.
 
-> ⚠️ **Note for users:** update the placeholders below (author name, affiliation, year, repository URL, contact) before publishing. Confirm the license and any data-release restrictions with your advisor before making the repository public.
 
 ---
 
